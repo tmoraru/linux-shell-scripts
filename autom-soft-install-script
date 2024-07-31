@@ -1,4 +1,5 @@
 #!/bin/bash
+#Automated script for installing multiple packages on vm
 packages=("package1" "package2" "package3")
 # Install listed packages using apt-get
 for package in "${packages[@]}"; do
